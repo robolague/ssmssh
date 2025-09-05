@@ -165,9 +165,7 @@ func getInstanceTags(profile, region, instanceId string) ([]Tag, error) {
 	tags := []Tag{}
 	for _, res := range result.Reservations {
 		for _, inst := range res.Instances {
-			for _, tag := range inst.Tags {
-				tags = append(tags, tag)
-			}
+			tags = append(tags, inst.Tags...)
 		}
 	}
 	return tags, nil
