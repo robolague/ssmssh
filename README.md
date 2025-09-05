@@ -147,6 +147,7 @@ Your AWS profile needs the following permissions:
 
 ## 🎨 Screenshots
 
+TBD: I don't have any available profiles that aren't proprietary that I can screenshot
 The application features a beautiful terminal interface with:
 - Color-coded selections
 - Real-time filtering
