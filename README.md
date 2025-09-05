@@ -1,5 +1,9 @@
 # SSM SSH
 
+[![CI](https://github.com/robolague/ssmssh/actions/workflows/ci.yml/badge.svg)](https://github.com/robolague/ssmssh/actions/workflows/ci.yml)
+[![Lint](https://github.com/robolague/ssmssh/actions/workflows/lint.yml/badge.svg)](https://github.com/robolague/ssmssh/actions/workflows/lint.yml)
+[![Release](https://github.com/robolague/ssmssh/actions/workflows/release.yml/badge.svg)](https://github.com/robolague/ssmssh/actions/workflows/release.yml)
+
 A beautiful, interactive terminal application for connecting to AWS EC2 instances via AWS Systems Manager Session Manager. No more remembering instance IDs or juggling multiple AWS profiles and regions!
 
 ## ✨ Features
